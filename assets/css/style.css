@@ -1,1 +1,13 @@
+
 h1, h2 {font-family: Georgia, 'Times New Roman', Times, serif; color:#4aaaa5}
+
+/* Background pattern from Toptal Subtle Patterns */
+
+
+header {background: blue}
+
+section {background: pink}
+
+div {background: white;
+    display: inline-block; 
+    width: 75px}
