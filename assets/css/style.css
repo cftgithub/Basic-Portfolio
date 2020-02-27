@@ -1,13 +1,67 @@
-
-h1, h2 {font-family: Georgia, 'Times New Roman', Times, serif; color:#4aaaa5}
-
 /* Background pattern from Toptal Subtle Patterns */
+body {
+    font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
+    color: #777777;
+}     
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    background-color: #4aaaa5;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    color: #ffffff;
+    float: left;
+}
+.fullHeader {
+    background-color: #4aaaa5;
+    height: 115px;
 
+}
+li {
+    float: right;
+    border-right: 1px solid black;
+}
 
-header {background: blue}
+li:first-child {
+    border: none;
+}
 
-section {background: pink}
-
-div {background: white;
-    display: inline-block; 
-    width: 75px}
+.full {
+    background-image: url('../images/geometric-leaves/geometric-leaves.png');
+    background-repeat: repeat;
+}
+.image {float:left;
+    margin-right: 20px;
+}
+section {
+    background-color: #ffffff;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+h2 {
+    color: #4aaaa5;
+}
+footer {
+    background-color: #666666;
+    padding: 20px;
+    border-top: 5px solid #4aaaa5;
+}
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.clearfix {
+    content:"";
+    clear:both;
+    display: block;
+}
