@@ -1,46 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">        
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>My Portfolio</title>
     </head>
-    <style>
-        body {background-image:url(assets/images/geometric-leaves/geometric-leaves.png)}     
-
-    </style>
 
     <body>
-        <!-- header, navigation -->
-        <header>
-            <h1>Chiafong Tsao</h1>
-            <nav>
-                <div>About</div>
-                <div>Portfolio</div>
-                <div>Contact</div>
-            </nav>
-        </header>
-        <!-- section Contact-->
-        <section>
-            <h2>Contact</h2>
-
-        </section>
-        <hr>
-        
-        <!-- Section withbox entries -->
-        <form action="/action_page.php">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="email" name="email"><br>
-            <label for="message">Message</label><br>
-            <input type="text" id="message" name="message"><br>
-        </form>
-        <button>Submit</button>
-
-
-
-
+       
+        <div class="fullHeader">
+            <header>
+                <h1>Chiafong Tsao</h1>
+                <nav>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="clearfix"></div>
+        <div class="full">
+            <section>
+                <h2>Contact</h2>
+                <hr>
+                <div class="form">
+                    <form action="/action_page.php">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Your full name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="example@gmail.com"><br>
+                        <label for="message">Message</label><br>
+                        <textarea></textarea><br>
+                    </form>
+                    <button>Submit</button>
+                </div>
+            </section>
+        </div>    
+        <div class="clearfix"> </div>
+        <footer>Copyright ©</footer>
 
     </body>
 </html>
