@@ -17,6 +17,10 @@ h1 {
     color: #ffffff;
     float: left;
 }
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 .fullHeader {
     background-color: #ffffff;
     height: 115px;
